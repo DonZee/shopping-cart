@@ -8,8 +8,8 @@ const App = ()=>{
   return(
     <div>
       <CartHeader/>
-      <CartFooter/>
       <CartItems/>
+      <CartFooter copyright={2018}/>
     </div>
   )
 }
